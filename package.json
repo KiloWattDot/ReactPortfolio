@@ -1,0 +1,22 @@
+{
+  "name": "reactportfolio",
+  "description": "## Your Task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiloWattDot/ReactPortfolio.git"
+  },
+  "author": "Dorothy Gilchrist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiloWattDot/ReactPortfolio/issues"
+  },
+  "homepage": "https://github.com/KiloWattDot/ReactPortfolio#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.0"
+  }
+}
