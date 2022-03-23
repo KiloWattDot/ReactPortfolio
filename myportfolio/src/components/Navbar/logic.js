@@ -1,5 +1,3 @@
-
-
 const toggleMenu = document.querySelector('#toggleMenu')
 const navList = document.querySelector('.navList')
 

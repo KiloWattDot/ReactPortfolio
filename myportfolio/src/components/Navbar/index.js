@@ -1,7 +1,6 @@
-import React from 'react';
-import './style.css';
-import './logic.js';
-
+import React from "react";
+import './logic.js'
+import './style.css'
 
 
 
@@ -38,7 +37,7 @@ function Navbar() {
                 <div className='menu-line'></div>
             </div>
         </nav>
-
+ 
         
         
     );
