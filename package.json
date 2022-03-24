@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/KiloWattDot/ReactPortfolio#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "create-react-app": "^5.0.0"
   }
 }

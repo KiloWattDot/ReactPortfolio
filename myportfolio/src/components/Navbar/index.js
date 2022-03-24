@@ -1,6 +1,6 @@
 import React from "react";
-import './logic.js'
-import './style.css'
+import './logic.js';
+import './nav-style.css';
 
 
 

@@ -1,12 +1,69 @@
-import React from 'react';
-import './style.css';
+import React, {useState} from 'react';
+import './foot-style.css';
+import linkedin from './icons/linkedin.png'
+import github from './icons/github.png'
+import twitter from './icons/twitter.png'
 
 
 
 function Footer() {
+
+    let [contact, setContact] = useState();
+
+    // This is a handler that we will reference in our `onClick` attribute later
+    const handleClick = () => {
+      alert('Thank you! I will get back to you shortly...');
+      console.log(`You've been contacted`);
+    };
+
+
+
+
     return (
-        <div className='footerArea'>
-            <h1>GET IN TOUCH!</h1>
+        <div className='footerArea' >
+            <h1 id="title">GET IN TOUCH!</h1>
+
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-xs-6'>
+                        <div className='LeftBox'>
+                            <form>
+                                <input type="text" id='inputName' placeholder='Name'></input>
+                                <input type="text" id='inputEmail' placeholder='Email'></input>
+                                <input type="text" id='inputMessage' placeholder='Message'></input>
+                                <button type='Submit' onClick={handleClick} className='submitBtn'>Submit</button>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <div className='col-xs-6'>
+                        <div className='Rightbox'>
+                        <h3 id="infoTitle"> Phone</h3>
+                            <p > (404) 344-8884 </p>
+                        <h3 id="infoTitle"> Email </h3>
+                            <p> doro.gilchrist@gmail.com</p>
+                        <h3 id="infoTitle"> Location </h3>
+                            <p>Atlanta, Georgia </p> 
+                            
+                        <h3 id="infoTitle"> Social Media</h3>
+
+                        <a href="https://www.linkedin.com/in/dorogilchrist/">
+                            <img src={linkedin} id='linkedin'alt="Linkedin Icon" />
+                        </a>
+                        <a href="https://github.com/KiloWattDot">
+                            <img src={github} id='github' alt="GitHub Icon" />
+                        </a>
+                        <a href="https://www.twitter.com/DoroTheDev/"> 
+                            <img  src={twitter} id='twitter' alt="twitter Icon" />
+                        </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
 
