@@ -110,15 +110,14 @@ button[type="submit"]:hover {
 h3 {
     font-size: 120%;
     font-weight: bold;
-    color:  #F5BF00;;
-    font-family: 'Poppins', sans-serif;
+    color:  #F5BF00 !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 
-p {
-    color: #fbecaf;
-    font-family: 'Poppins', sans-serif;
-
+#info {
+    color: #ffefb7 !important;
 }
+
 
 #linkedin {
  margin-right: 25px;

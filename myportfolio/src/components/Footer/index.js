@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './foot-style.css';
 import linkedin from './icons/linkedin.png'
 import github from './icons/github.png'
@@ -7,9 +7,6 @@ import twitter from './icons/twitter.png'
 
 
 function Footer() {
-
-    let [contact, setContact] = useState();
-
     // This is a handler that we will reference in our `onClick` attribute later
     const handleClick = () => {
       alert('Thank you! I will get back to you shortly...');
@@ -41,23 +38,23 @@ function Footer() {
                     <div className='col-xs-6'>
                         <div className='Rightbox'>
                         <h3 id="infoTitle"> Phone</h3>
-                            <p > (404) 344-8884 </p>
+                            <p id="info" > (404) 344-8884 </p>
                         <h3 id="infoTitle"> Email </h3>
-                            <p> doro.gilchrist@gmail.com</p>
+                            <p id="info" > doro.gilchrist@gmail.com</p>
                         <h3 id="infoTitle"> Location </h3>
-                            <p>Atlanta, Georgia </p> 
+                            <p id="info" >Atlanta, Georgia </p> 
                             
                         <h3 id="infoTitle"> Social Media</h3>
 
-                        <a href="https://www.linkedin.com/in/dorogilchrist/">
+                        {/* <a href="https://www.linkedin.com/in/dorogilchrist/" target='_blank'>
                             <img src={linkedin} id='linkedin'alt="Linkedin Icon" />
                         </a>
-                        <a href="https://github.com/KiloWattDot">
+                        <a href="https://github.com/KiloWattDot" target='_blank'>
                             <img src={github} id='github' alt="GitHub Icon" />
                         </a>
-                        <a href="https://www.twitter.com/DoroTheDev/"> 
+                        <a href="https://www.twitter.com/DoroTheDev/" target='_blank'>
                             <img  src={twitter} id='twitter' alt="twitter Icon" />
-                        </a>
+                        </a> */}
 
                         </div>
                     </div>

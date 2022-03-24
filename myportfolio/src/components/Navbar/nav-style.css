@@ -72,7 +72,7 @@ h1 {
   }
 
 
-  @media all and (max-width: 1020px) {
+  @media all and (max-width: 1024px) {
 
     h1 {
       font-size: 135%;
