@@ -36,7 +36,7 @@
 .container {
     display: flex;
     color: white;
-    justify-content: center;
+   
    
 }
 
@@ -120,17 +120,18 @@ h3 {
 
 
 #linkedin {
- margin-right: 25px;
+ margin-right: 10px;
+ width: 8%;
 }
 #github {
-    margin-right: 25px;
-    margin-bottom: 15px;
-
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 8%;
 }
 #twitter {
-    margin-right: 25px;
-    margin-bottom: 12px;
-
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 8%;
 }
 
 @media all and (max-width: 610px) {

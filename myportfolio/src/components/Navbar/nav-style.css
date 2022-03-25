@@ -27,7 +27,7 @@ h1 {
     background-color: #000000;
     color: #ffffff;
     align-items: center;
-    
+    padding: 0px 0px;
   
   }
 
@@ -37,6 +37,7 @@ h1 {
     font-family: 'Work Sans', sans-serif;
     list-style: none;
     color: #ffffff;
+    margin: 0px 0px;
     
   }
   
@@ -44,8 +45,8 @@ h1 {
       color is set to a whitish color and bold
    */
   .navList .list-item{
-   
-    padding: 20px 40px;
+    margin-left: -10px;
+    padding: 20px 20px;
     display: inline-block;
     font-size: 22px; 
     
@@ -57,14 +58,15 @@ h1 {
   }
 
   .navbar a:hover{
-    color: darkorange;
+    color: #F5BF00;
   }
 
   .menu-line {
     width: 20px;
     height: 3px;
-    background-color: darkorange;
+    background-color: #F5BF00;
     margin-bottom: 4px;;
+  
   }
 
   .menu {
@@ -78,10 +80,10 @@ h1 {
       font-size: 135%;
     }
     .navList .list-item{
-
+      margin-left: -0px;
       font-size: 15px; 
+      padding: 10px 10px;
     }
-
   }
 
 
@@ -110,7 +112,7 @@ h1 {
 
     .navList .list-item{
       display: block;
-      border-top: 2px solid darkorange;
+      border-top: 2px solid #F5BF00;
       padding: 10px;
       font-size: 15px; 
     }

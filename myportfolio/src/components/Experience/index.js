@@ -6,7 +6,7 @@ import Fake1 from './images/ecom.PNG'
 import Fake2 from './images/health.PNG'
 
 
-
+// See if you can replace this using props
 const data = [
     {
         id: 1,
@@ -53,6 +53,7 @@ const data = [
 function Experience() {
     
     return (
+        
 
         <section id="experience">
             <h5>My Recent Work</h5>

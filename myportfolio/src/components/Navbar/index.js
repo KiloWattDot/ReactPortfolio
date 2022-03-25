@@ -8,7 +8,7 @@ import './nav-style.css';
 function Navbar() {
     return ( 
       
- 
+
         <nav className='navbar'>
             <h1>DOROTHY GILCHRIST</h1>
             <ul className='navList'>
@@ -38,7 +38,6 @@ function Navbar() {
             </div>
         </nav>
  
-        
         
     );
 

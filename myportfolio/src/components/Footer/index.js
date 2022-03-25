@@ -7,8 +7,11 @@ import twitter from './icons/twitter.png'
 
 
 function Footer() {
-    // This is a handler that we will reference in our `onClick` attribute later
+    // Add a local storage function to temporarily hold submissions
+    // Also try to make your own alert pop up w/o 
     const handleClick = () => {
+
+
       alert('Thank you! I will get back to you shortly...');
       console.log(`You've been contacted`);
     };
@@ -46,7 +49,7 @@ function Footer() {
                             
                         <h3 id="infoTitle"> Social Media</h3>
 
-                        {/* <a href="https://www.linkedin.com/in/dorogilchrist/" target='_blank'>
+                        <a href="https://www.linkedin.com/in/dorogilchrist/" target='_blank'>
                             <img src={linkedin} id='linkedin'alt="Linkedin Icon" />
                         </a>
                         <a href="https://github.com/KiloWattDot" target='_blank'>
@@ -54,7 +57,7 @@ function Footer() {
                         </a>
                         <a href="https://www.twitter.com/DoroTheDev/" target='_blank'>
                             <img  src={twitter} id='twitter' alt="twitter Icon" />
-                        </a> */}
+                        </a>
 
                         </div>
                     </div>

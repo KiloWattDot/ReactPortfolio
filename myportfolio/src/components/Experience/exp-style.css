@@ -1,14 +1,7 @@
 
 
 
-#experience {
-    background: 
-    url('AdobeStock_177974574.jpeg')
-    top center / 100% 100%
-    fixed
-    no-repeat;
-    margin: 0px 0px;
-}
+
 
 * {
     box-sizing: border-box;
@@ -19,11 +12,13 @@
 
 .exp_container {
     display: grid;
+  
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.2rem;
+    gap: 4rem;
 }
 
-.exp_item {
+.exp_item { 
+    
     background-color: rgb(255, 187, 0);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -136,6 +131,15 @@ p {
         margin: 0px 70px;
     }
     
+
+}
+@media screen and (max-width: 480px) {
+ 
+
+    .exp_item { 
+        margin: 10px 50px;
+         width: 80%;
+    }
 
 }
 
