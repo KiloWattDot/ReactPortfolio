@@ -19,6 +19,10 @@
     
 }
 
+.error-text {
+    color: red;
+}
+
 #title {
     margin: 40px 10px;
     color: #F5BF00;

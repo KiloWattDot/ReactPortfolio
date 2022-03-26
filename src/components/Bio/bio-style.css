@@ -8,7 +8,7 @@
 }
 
 
-.bio_container {
+#bio {
     display: grid;
     gap: 4rem;
     margin-bottom: 200px;

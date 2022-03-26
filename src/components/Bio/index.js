@@ -7,9 +7,8 @@ const bioText = ' My name is Dorothy Gilchrist and I am from Atlanta, Georgia. I
 
 function Bio() {
     return (
-           
-      
-        <div className='container bio_container'>
+
+        <div className='container ' id='bio'>
             <article className='bio_item'>
                 <div className='bio_image'>
                     <img src={gradPic} className='bioPic' alt="My Graduation pic"></img>

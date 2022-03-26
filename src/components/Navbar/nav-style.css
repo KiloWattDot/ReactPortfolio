@@ -24,7 +24,7 @@ h1 {
    .navbar {
     display: flex;
     justify-content: space-around;
-    background-color: #000000;
+    background-color: transparent;
     color: #ffffff;
     align-items: center;
     padding: 0px 0px;
@@ -38,7 +38,7 @@ h1 {
     list-style: none;
     color: #ffffff;
     margin: 0px 0px;
-    
+    text-decoration: none;
   }
   
   /* The links within the Navigation
@@ -49,11 +49,14 @@ h1 {
     padding: 20px 20px;
     display: inline-block;
     font-size: 22px; 
+    list-style: none;
+
     
   }
   .navbar a {
     color: white ;
     text-decoration: none;
+
     
   }
 
@@ -84,10 +87,21 @@ h1 {
       font-size: 15px; 
       padding: 10px 10px;
     }
+
+    h1 {
+      margin: 2%;
+      font-size: 100%;
+    }
   }
 
 
 
+  @media all and (max-width: 720px) {
+    .navbar {
+      flex-direction: column;
+
+    }
+  }
   @media all and (max-width: 720px) {
     .navbar {
       flex-direction: column;
@@ -105,8 +119,9 @@ h1 {
       width: 100%;
       text-align: center;
       padding-top: 5px;
-
+      list-style: none;
       display: none;
+      text-decoration: none;
     }
     
 
@@ -115,13 +130,67 @@ h1 {
       border-top: 2px solid #F5BF00;
       padding: 10px;
       font-size: 15px; 
+      list-style: none;
+      list-style-type: none;
+      text-decoration: none;
     }
 
     h1 {
       width: 100%;
     
     }
-    .active {
+    #active {
+      display: block;
+
+    }
+
+
+  }
+  
+
+  @media all and (max-width: 1047px) {
+    .navbar {
+      display: flex;
+      
+      background-color: transparent;
+      color: #ffffff;
+      align-items: center;
+      padding: 0px 0px;
+    
+    }
+    .menu {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 18px;
+    }
+
+    .navList {
+      /* text-decoration-line: underline; */
+      width: 100%;
+      text-align: center;
+      padding-top: 5px;
+      list-style: none;
+      display: none;
+      text-decoration: none;
+    }
+    
+
+    .navList .list-item{
+      display: block;
+      border-top: 2px solid #F5BF00;
+      padding: 10px;
+      font-size: 15px; 
+      list-style: none;
+      list-style-type: none;
+      text-decoration: none;
+    }
+
+    h1 {
+      width: 50%;
+    
+    }
+    #active {
       display: block;
 
     }

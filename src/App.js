@@ -9,14 +9,13 @@ import '../src/style.css'
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 function App() {
   return (
-    <div className='uniform'>
+    <div className='uniform' >
       <Navbar />
       <div id='midBg' >
       <Welcome />
       <Bio />
       <Experience />
       </div>
-      
       <Footer />
     </div>
   );

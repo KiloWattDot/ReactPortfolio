@@ -11,7 +11,7 @@
     
 }
 
-.welcomeContainer {
+#welcome {
     justify-content: left !important;
     align-items: center;
 
@@ -36,7 +36,7 @@
 
 
 .greetingTitle {
-  transform: translate(-200px, 0px);
+  transform: translate(-150px, 0px);
   
 }
   /* Text format for the "Hello, I am..." part */
@@ -74,7 +74,7 @@
 
 
   #hireBtn {
-    transform: translate(-200px, 0px);
+    transform: translate(-150px, 0px);
     height: 45px !important;
     background-color: #F5BF00 !important;
     align-items: center;
@@ -86,7 +86,7 @@
   }
   
   #resumeBtn {
-    transform: translate(-200px, 0px);
+    transform: translate(-150px, 0px);
     color: #F5BF00;
     width: 25% !important;
     height: 45px !important;
@@ -102,8 +102,8 @@
 
   .yellowBG {
     /* justify-content: left; */
-    transform: translate(20px, -0px);
-    width: 90%;
+    transform: translate(-80px, -0px);
+    width: 70%;
     
   }
 
@@ -115,7 +115,7 @@
 }
 
 
-@media all and (max-width: 1150px) {
+@media all and (max-width: 1100px) {
   
   .col-xs-5 {
    transform: translate(156px, -96px);
@@ -139,31 +139,31 @@
    
  
  }
- @media all and (max-width: 1024px) {
+ @media all and (max-width: 1050px) {
    
        
   .col-xs-5 {
    transform: translate(200px, -80px);
   }
   #Hello {
-   font-size: 250%;
+   font-size: 230%;
    }
    #Dorothy {
-     font-size: 450%;
+     font-size: 430%;
    }
    #Welcome {
-     font-size: 220%;
+     font-size: 200%;
    }
  
    #hireBtn {
-     transform: translate(-200px, 0px);
+     transform: translate(-160px, 0px);
      font-size: 15px;
      height: 35px !important;
    
    }
    
    #resumeBtn {
-     transform: translate(-200px, 0px);
+     transform: translate(-150px, 0px);
      width: 20% !important;
      height: 35px !important;
      font-size: 15px;
@@ -219,6 +219,12 @@
      
  }
  
+ @media all and (max-width: 1049px) {
+   .col-xs-5 {
+     transform: translate(210px, -80px);
+    }
+ 
+ }
  @media all and (max-width: 850px) {
    .col-xs-5 {
      transform: translate(160px, -80px);
@@ -240,15 +246,15 @@
      }
    
      #hireBtn {
-       transform: translate(-200px, 0px);
+       transform: translate(-150px, 0px);
        font-size: 15px;
        height: 35px !important;
      
      }
      
      #resumeBtn {
-       transform: translate(-200px, 0px);
-       width: 35% !important;
+       transform: translate(-150px, 0px);
+       width: 45% !important;
        height: 35px !important;
        font-size: 15px;
        margin: 5px;

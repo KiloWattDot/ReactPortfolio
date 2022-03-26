@@ -12,7 +12,7 @@ function Welcome() {
     
             
         <div className='WelcomeArea'>
-           <div className='container welcomeContainer'>
+           <div className='container' id='welcome'>
                 <div className='row'>
                     <div className='col-xs-5 greetingSide'>
                         <div className='greeting'>
