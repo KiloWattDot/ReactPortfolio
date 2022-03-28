@@ -71,8 +71,8 @@ function Experience() {
                             <h3 className='projectTitle'>{title}</h3>
                             <p>{description}</p>
                             <div className='exp_item_links'>
-                                <a href={github} target='_blank' className='btn' id='repo'>Github</a>
-                                <a href={demo}  target='_blank' className='btn btn-primary'>Live Demo</a>
+                                <a href={github}  className='btn' id='repo'>Github</a>
+                                <a href={demo} className='btn btn-primary'>Live Demo</a>
                             </div>
                          </article>
                          

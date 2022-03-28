@@ -94,13 +94,13 @@ function Footer() {
                             
                         <h3 id="infoTitle"> Social Media</h3>
 
-                        <a href="https://www.linkedin.com/in/dorogilchrist/" target='_blank'>
+                        <a href="https://www.linkedin.com/in/dorogilchrist/" >
                             <img src={linkedin} id='linkedin'alt="Linkedin Icon" />
                         </a>
-                        <a href="https://github.com/KiloWattDot" target='_blank'>
+                        <a href="https://github.com/KiloWattDot">
                             <img src={github} id='github' alt="GitHub Icon" />
                         </a>
-                        <a href="https://www.twitter.com/DoroTheDev/" target='_blank'>
+                        <a href="https://www.twitter.com/DoroTheDev/" >
                             <img  src={twitter} id='twitter' alt="twitter Icon" />
                         </a>
 
