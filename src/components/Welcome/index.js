@@ -38,7 +38,7 @@ function Welcome() {
                     <div className='col-xs-5'>
                         <div className='profile'>
                             
-                            <img src={yellowbg} className='yellowBG' alt='Picture of me with a yellow background.'></img>
+                            <img src={yellowbg} className='yellowBG' alt='Me with a yellow background.'></img>
                         </div>
                     </div>
                 </div>
